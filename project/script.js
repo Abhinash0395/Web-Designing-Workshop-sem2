@@ -6,7 +6,7 @@
 
 /** Show a toast notification */
 function showToast(msg, duration = 2600) {
-  const toast = document.getElementById('toast');
+  const toast = Document.getElementById('toast');
   if (!toast) return;
   toast.textContent = msg;
   toast.classList.add('show');
